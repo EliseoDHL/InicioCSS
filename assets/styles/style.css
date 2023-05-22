@@ -1,0 +1,42 @@
+
+/*
+
+Selectores
+- Selectores por etiqueta
+- Selectores por clase
+- Selectores por ID
+
+Para poder seleccionar elementos por ID, usamos como prefijo (antes del nombre del selector) el signo #
+
+Para poder seleccionar elementos por su clase, utilizamos el singo de . (punto)
+
+Los ID tienen mayor jerarquia que las clases
+
+*/
+
+.CH27{
+    background-color: dodgerblue;
+    margin: 40px;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+}
+
+#kelly{
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mariana{
+    background-color: burlywood;
+    font-family: fantasy;
+}
+#david{
+    background-color: darkcyan;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: large;
+}
+#brandon{
+    background-color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

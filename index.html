@@ -1,0 +1,72 @@
+! <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a CSS</title>
+    <link href="./assets/styles/style.css" rel="stylesheet"> <!--Esta conexion se hace dentro del head-->
+    <!-- rel = indica que el archivo vinculado es una hora de estilos
+        href = direccion donde se encuentra el archivo
+        type = indica el tipo de archivo, en HTML 5 ya no se utiliza-->
+</head>
+<body>
+    <!--Etiqueta con atributos-->
+    <img src="ImagenGenerica.png">
+    <!--img = etiqueta | src = atributo-->
+
+    <a href="https://www.pinterest.com.mx/" target="_blank">Vamo a Pi</a>
+
+    <!-- Estilo como atributo (jerarquia mayor) MALA PRACTICA -->
+
+    <p style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur voluptas ad! Aperiam repellendus, repellat, quibusdam beatae, nam laborum doloremque odio libero ex nesciunt debitis laboriosam itaque repudiandae. Libero, nemo!</p>
+
+    <p style="background-color: blueviolet; color: aliceblue; font-size: x-large; font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur voluptas ad! Aperiam repellendus, repellat, quibusdam beatae, nam laborum doloremque odio libero ex nesciunt debitis laboriosam itaque repudiandae. Libero, nemo!</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi perspiciatis voluptates corrupti nobis illo tempora debitis incidunt odio mollitia amet provident veritatis, totam ipsum sapiente molestias. Laborum doloribus unde nisi!</p>
+
+
+    <!-- Estilo dentro de una etiqueta llamada style MALA PRACTICA-->
+<!--
+    <style>
+        p { background-color: aqua; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+    </style>
+-->
+    <!-- Estilos en un documento externo BUENA PRACTICA-->
+
+
+    <h1>Ejercicio Cohorte 27</h1>
+    <p id="kelly" class="CH27">Kelly</p>
+    <p id="mariana" class="CH27">Mariana</p>
+    <p id="david" class="CH27">David</p>
+    <p id="brandon" class="CH27">Brandon</p>
+    <p id="carlos" class="CH27">Carlos</p>
+    <p id="ale" class="CH27">Ale</p>
+    <p id="ricardo" class="CH27">Ricardo</p>
+    <p id="felipe" class="CH27">Felipe</p>
+    <p id="fernanda" class="CH27">Fernanda</p>
+    <p id="gaby" class="CH27">Gaby</p>
+    <p id="maara" class="CH27">Maara</p>
+
+
+
+</body>
+</html>
+
+<!--
+    Con la extension .html le decimos con que programa sera abierto
+    Con el Doctype le decimos al navegador como interpreta el documento
+    
+    Existen varias formas de agregar estilos a un docuemto de HTML
+    
+    - inline o directamente en la etiqueta como valores de atributos
+    - estilos dentro de una etiqueta llamada <style> </style>
+    - documento externo (mejor practica de programacion) 
+
+    Selectores
+    - selectores por etiqueta (referencia etiquetas)
+    - Selectores por clase 
+    - Selectores por ID
+-->
